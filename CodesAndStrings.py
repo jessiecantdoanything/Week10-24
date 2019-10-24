@@ -44,3 +44,8 @@ print(name[0:3])
 
 for i in range(0, len(name)+1):
     print(name[0:i])
+
+# searching
+
+print("biv" in name)
+print("y" not in name)
