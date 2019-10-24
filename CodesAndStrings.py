@@ -18,6 +18,7 @@ print("uh "*2 + "AAAAAAAAA")
 
 def imTiredofSchool():
     print("me, "*3 + " young Jessie")
-    print(" is exhausted")
-    print("Why must you ask?"*3 "school")
+    print("is exhausted")
+    print("Why must you ask?")
+    print(" school"*3)
 
