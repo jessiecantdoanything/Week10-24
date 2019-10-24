@@ -38,7 +38,9 @@ print(name[-3])
 for i in range(0, len(name)):
     print(name[i])
 
-    #slicing and dicing
+#slicing and dicing
 
-    print(name[0:3])
+print(name[0:3])
 
+for i in range(0, len(name)+1)
+ rint(name[0:1]
