@@ -17,8 +17,28 @@ print(lastFirst)
 print("uh "*2 + "AAAAAAAAA")
 
 def imTiredofSchool():
-    print("me, "*3 + " young Jessie")
-    print("is exhausted")
+    print("me, "*3 + "young Jessie,")
+    print("is extremely exhausted")
     print("Why must you ask?")
-    print(" school"*3)
+    print("school "*3)
+
+imTiredofSchool()
+
+# indexing
+
+name = "Roy G Biv"
+firstChar = name[0]
+print(firstChar)
+
+middleCharIndex = len(name) // 2
+print(middleCharIndex)
+print(name[middleCharIndex])
+print(name[-3])
+
+for i in range(0, len(name)):
+    print(name[i])
+
+    #slicing and dicing
+
+    print(name[0:3])
 
