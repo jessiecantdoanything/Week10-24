@@ -42,5 +42,5 @@ for i in range(0, len(name)):
 
 print(name[0:3])
 
-for i in range(0, len(name)+1)
- rint(name[0:1]
+for i in range(0, len(name)+1):
+    print(name[0:i])
