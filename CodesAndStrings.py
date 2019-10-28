@@ -49,3 +49,8 @@ for i in range(0, len(name)+1):
 
 print("biv" in name)
 print("y" not in name)
+
+# Character functions
+
+print(chr(75))
+print(ord('&'))
