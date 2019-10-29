@@ -18,7 +18,7 @@ def scramble2Decrypt(cipherText):
     halfLenght = len(cipherText) // 2
     evenChars = cipherText[halfLenght:]    # halflenght to the end
     oddChars = cipherText[:halfLenght]     # 0 to halflenght - 1
-    plainText =
+    plainText = ""
 
     for i in range(halfLenght):
         plainText = plainText + evenChars[i]
@@ -26,6 +26,5 @@ def scramble2Decrypt(cipherText):
 
     if len(oddChar) < len(evenChars):
         plaintext = plainText + evenChars[-1]
-
 
     return plainText
