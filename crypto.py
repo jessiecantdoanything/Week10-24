@@ -58,7 +58,6 @@ def letterToIndex(letter, key):
     return let
 
 
-
 print(letterToIndex("y", 4))
 
 
