@@ -50,17 +50,33 @@ for i in range(0, len(name)+1):
 print("biv" in name)
 print("y" not in name)
 
+
+    # String Methods to investigate:
+    # Method        Use Example         Explanation
+    # center        aStr.center(w)
+    # ljust         aStr.ljust(w)
+    # rjust         aStr.rjust(w)
+    # upper         aStr.upper()
+    # lower         aStr.lower()
+    # index         aStr.index(item)
+    # rindex        aStr.rindex(item)
+    # find          aStr.find(item)
+    # rfind         aStr.rfind(item)
+    # replace       aStr.replace(old, new)
+
+    # Be sure to include multiple examples of all of them in use
+
 # Character functions
 
-print(chr(75))
-print(ord('&'))
 
 from mapper import *
+
 print(letterToIndex('M'))
 
 print(indexToLetter(24))
-
 from crypto import *
+
 
 print(scramble2Encrypt("THE MEETING IS AT FIVE OCLOCK"))
 print(scramble2Decrypt("H ETN SA IEOLCTEMEIGI TFV COK"))
+
